@@ -1,23 +1,25 @@
-<center><font size="10">1、引言</font></center>
+# 1、引言
 
 <br><br><br>
-<center><font size="6">1.1目的</font></center>
+## 1.1目的
 
 <br>
-<center><font size ="4">本文档描述了进销存系统的用户需求</font></center>
+本文档描述了进销存系统的用户需求
 
 <br>
-<center><font size ="6">1.2阅读说明</font></center>
+## 1.2阅读说明
 
 <br><br>
-<center><font size="4">文档内用例的描述使用了附表1的模版</font></center>
+文档内用例的描述使用了附表1的模版
    
 <br><br> 
-<center><font size ="6">1.3参考文献</font></center>
+## 1.3参考文献
 
 <br><br>
 
-<center><font size ="10">2、用例列表</font></center>
+# 2、用例列表
+
+<br>
 <center>
 <br>
 <table>
