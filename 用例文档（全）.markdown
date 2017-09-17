@@ -20,7 +20,7 @@
 <center><font size ="10">2、用例列表</font></center>
 <center>
 <br>
-<table border="1">
+<table>
 <tr>
     <th width="300"><font size="10"><center>参与者</center></font></th>
     <th width="500"><font size="10"><center>用例</center></font></th>
