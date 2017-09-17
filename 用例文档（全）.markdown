@@ -17,7 +17,7 @@
 
 <br><br>
 
-<center><font size ="6">2、用例列表</font></center>
+<center><font size ="10">2、用例列表</font></center>
 <center>
 <br>
 <table border="1">
@@ -26,73 +26,76 @@
     <th width="500"><font size="10"><center>用例</center></font></th>
 </tr>
 <tr>
-    <td rowspan ="7"><font size ="6"><center>仓库管理人员</center></font></td>
+    <td rowspan ="6"><font size ="6"><center>仓库管理人员</center></font></td>
     <td><font size = "6">1、库存盘点</font></td>
 </tr>
 <tr>
     <td><font size="6">2、开库存赠送单</font></td>
 </tr>
 <tr>
-    <td><font size="6">3、开库存报损/报溢单</font></td>
-</tr>
-<tr>
-    <td><font size="6">4、开库存警报单</font></td>
-</tr>
-<tr>
-    <td><font size="6">5、库存查看</font></td>
-</tr>
-<tr>
-    <td><font size="6">6、商品分类管理</font></td>
-</tr>
-<tr>
-    <td><font size="6">7、商品管理</font></td>
-</tr>
-<tr>
-    <td rowspan ="3"><font size ="6"><center>管理人员</center></font></td>
-    <td><font size = "6">8、单据审批</font></td>
-</tr>
-<tr>
-    <td><font size="6">9、制定促销策略</font></td>
-</tr>
-<tr>
-    <td><font size="6">10、查看系统操作日志</font></td>
-</tr>
-<tr>
-    <td rowspan ="5"><font size ="6"><center>进货销售人员</center></font></td>
-    <td><font size = "6">11、客户管理</font></td>
-</tr>
-<tr>
-    <td><font size="6">12、制定进货单</font></td>
-</tr>
-<tr>
-    <td><font size="6">13、制定进货退货单</font></td>
-</tr>
-<tr>
-    <td><font size="6">14、制定销售单</font></td>
-</tr>
-<tr>
-    <td><font size="6">15、制定销售退货单</font></td>
-</tr>
-<tr>
-    <td rowspan ="6"><font size ="6"><center>财务人员</center></font></td>
-    <td><font size = "6">16、账户管理</font></td>
-</tr>
-<tr>
-    <td rowspan=><font size="6">17、制定单据</font><br><font size="5">
-    17.1、指定收款单<br>17.2、制定付款单</font></td>
+    <td><font size="6">3、开库存报损/报溢/报警单</font></td>
 </tr>
 
 <tr>
-    <td><font size="6">18、查看销售明细表</font></td>
+    <td><font size="6">4、库存查看</font></td>
 </tr>
 <tr>
-    <td><font size="6">19、查看经营历程表</font></td>
+    <td><font size="6">5、商品分类管理</font></td>
 </tr>
 <tr>
-    <td><font size="6">20、查看经营情况表</font></td>
+    <td><font size="6">6、商品管理</font></td>
 </tr>
 <tr>
-    <td><font size ="6">21、期初建账</font></td>
+    <td rowspan ="3"><font size ="6"><center>管理人员</center></font></td>
+    <td><font size = "6">7、单据审批</font></td>
+</tr>
+<tr>
+    <td><font size="6">8、制定促销策略</font></td>
+</tr>
+<tr>
+    <td><font size="6">9、查看系统操作日志</font></td>
+</tr>
+<tr>
+    <td rowspan ="5"><font size ="6"><center>进货销售人员</center></font></td>
+    <td><font size = "6">10、客户管理</font></td>
+</tr>
+<tr>
+    <td><font size="6">11、制定进货单</font></td>
+</tr>
+<tr>
+    <td><font size="6">12、制定进货退货单</font></td>
+</tr>
+<tr>
+    <td><font size="6">13、制定销售单</font></td>
+</tr>
+<tr>
+    <td><font size="6">14、制定销售退货单</font></td>
+</tr>
+<tr>
+    <td rowspan ="6"><font size ="6"><center>财务人员</center></font></td>
+    <td><font size = "6">15、账户管理</font></td>
+</tr>
+<tr>
+    <td rowspan=><font size="6">16、制定单据</font><br><font size="5"> &emsp;&emsp;16.1、指定收款单<br>&emsp;&emsp;16.2、制定付款单</font></td>
+</tr>
+
+<tr>
+    <td><font size="6">17、查看销售明细表</font></td>
+</tr>
+<tr>
+    <td><font size="6">18、查看经营历程表</font></td>
+</tr>
+<tr>
+    <td><font size="6">19、查看经营情况表</font></td>
+</tr>
+<tr>
+    <td><font size ="6">20、期初建账</font></td>
 </tr>
 </table>
 </center>
+
+<br>
+<center><font size="10">三、详细用例描述</font></center>
+
+<br>
+
