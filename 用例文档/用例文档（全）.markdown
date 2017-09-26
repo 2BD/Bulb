@@ -42,7 +42,6 @@
 <tr>
     <td><font size="6">3、库存核对</font></td>
 </tr>
-
 <tr>
     <td><font size="6">4、库存查看</font></td>
 </tr>
@@ -55,12 +54,9 @@
 <tr>
     <td><font size="6">7、开库存报警单</font></td>
 </tr>
-
 <tr>
-
     <td rowspan ="3"><font size ="6"><center>总经理</center></font></td>
-
-    <td><font size = "6">8、单据审批</font></td>
+    <td><font size="6">8、单据审批</font></td>
 </tr>
 <tr>
     <td><font size="6">9、制定促销策略</font></td>
@@ -84,6 +80,7 @@
 <tr>
     <td><font size="6">15、制定销售退货单</font></td>
 </tr>
+
 <tr>
     <td rowspan ="6"><font size ="6"><center>财务人员</center></font></td>
     <td><font size = "6">16、账户管理</font></td>
