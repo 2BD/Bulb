@@ -34,22 +34,22 @@
 </tr>
 <tr>
     <td rowspan ="7"><font size ="6"><center>仓库管理人员</center></font></td>
-    <td><font size = "6">1、库存盘点</font></td>
+    <td><font size = "6">1、商品分类管理</font></td>
 </tr>
 <tr>
-    <td><font size="6">2、核实库存赠送单</font></td>
+    <td><font size="6">2、商品管理</font></td>
 </tr>
 <tr>
-    <td><font size="6">3、库存核对</font></td>
+    <td><font size="6">3、开库存赠送单</font></td>
 </tr>
 <tr>
-    <td><font size="6">4、库存查看</font></td>
+    <td><font size="6">4、库存盘点</font></td>
 </tr>
 <tr>
-    <td><font size="6">5、商品分类管理</font></td>
+    <td><font size="6">5、库存核对</font></td>
 </tr>
 <tr>
-    <td><font size="6">6、商品管理</font></td>
+    <td><font size="6">6、库存查看</font></td>
 </tr>
 <tr>
     <td><font size="6">7、开库存报警单</font></td>
