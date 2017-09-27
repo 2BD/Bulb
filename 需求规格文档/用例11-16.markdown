@@ -1,0 +1,301 @@
+### 3.2.11 客户管理
+
+#### 3.2.11.1特性描述
+
+当需要对客户信息进行增（发展新用户）删（删除无效用户）改（修改信息）查（查询相应客户信息）时，一个已经登录到系统的销售人员开始进行相应的信息维护操作（增删改查），然后销售人员确认修改之后，客户信息会被更新。优先级 = 高
+
+####3.2.11.2刺激/响应序列
+
+刺激：销售人员发出新增用户请求  
+响应：系统跳转到新用户信息填写  
+刺激：销售人员发出删除用户请求  
+响应：系统显示客户列表  
+刺激：销售人员选择一个客户  
+响应：系统显示该客户的信息  
+刺激：销售人员确认删除该客户  
+响应：系统将该用户标记为已删除  
+刺激：销售人员发出查询客户信息请求  
+响应：系统显示客户列表  
+刺激：销售人员发出筛选客户信息请求  
+响应：系统要求销售人员输入筛选条件  
+刺激：销售人员输入筛选条件并查询  
+响应：系统显示满足条件的客户  
+刺激：销售人员发出修改用户信息请求  
+响应：系统跳转到客户信息编辑  
+刺激：销售人员进行相应信息修改并确认修改  
+响应：系统保存并更新该客户的信息  
+刺激：销售人员删除草稿  
+响应：系统删除草稿
+
+#### 3.2.8.3相关功能需求
+
+| Modify.Customer.lookup | 系统按照默认顺序显示客户列表  |
+| :-----------: | :----------------------:   |
+| Modify.Customer.sort.input | 用户选择排序的关键字以及顺序 |
+| Modify.Customer.sort.show   | 系统按照一定规则对客户列表排序 |
+| Modify.Customer.select | 系统将选中该用户并高亮显示    |
+| Modify.Customer.select.cancel | 取消选择 |
+| Modify.Customer.select.all | 选择全部客户 |
+| modify.Customer.select.reverse | 反选 |
+| Modify.Customer.new    | 系统跳转到用户信息填写       |
+| Modify.Customer.submit| 系统保存本次修改并更新信息    |
+| Modify.Customer.submit.confirm | 系统请求进行二次确认 |
+| Modify.Customer.delete | 系统删除该用户              |
+| Modify.Customer.delete.confirm | 系统再次向销售人员确认 |
+| Modify.Customer.edit   | 系统跳转到用户信息编辑       |
+| Modify.Customer.edit.input | 系统对输入信息进行检测 |
+| Modify.Customer.draft.save   | 系统保存当前草稿 |
+| Modify.Customer.draft.rename | 系统对草稿重命名 |
+| Modify.Customer.draft.delete | 系统删除草稿 |
+| Modify.Customer.draft.open | 系统打开草稿 |
+| Modify.Customer.filter.input | 销售人员组合筛选条件 |
+| Modify.Customer.filter.show | 系统显示满足筛选条件的客户    |
+| Modify.Customer.check  | 系统打开用户信息详细界面     |
+| Modify.Customer.cancel | 放弃当前操作 |
+
+
+### 3.2.12 制定进货单
+
+#### 3.2.12.1特性描述
+
+当发生进货行为时，由相应的销售人员为此次进货行为制定进货单，进货单需要提交给总经理审批，在审批完成后，进货单即生效。优先级 = 高
+
+####3.2.12.2刺激/响应序列
+
+刺激：销售人员发出制定进货单请求  
+响应：系统跳转到进货单信息填写  
+刺激：销售人员选择  
+响应：系统在下拉菜单中显示所有可选项  
+刺激：销售人员信息全部填写完成，确认提交进货单  
+响应：系统保存订单，并提交给总经理  
+刺激：进货单信息不完整时，销售人员选择提交  
+响应：系统不予提交，并要求销售人员继续完善信息  
+刺激：销售人员查看进货单列表  
+响应：系统显示进货单列表及响应状态  
+刺激：销售人员查看进货单明细  
+响应：系统跳转到进货单明细  
+
+#### 3.2.12.3相关功能需求
+
+| Purchase.lookup | 系统按照默认顺序显示进货单列表  |
+| :-----------: | :----------------------:   |
+| Purchase.filter.input | 销售人员组合筛选条件 |
+| Purchase.filter.show | 系统按照筛选条件进行筛选显示 |
+| Purchase.create  |  系统新建进货单|
+| Purchase.edit  | 系统跳转到信息填写 |
+| Purchase.edit.input | 系统对输入项进行范围检测 |
+| Purchase.select | 系统给出可选项供选择 |
+| Purchase.draft.save | 系统保存当前草稿 |
+| Purchase.draft.open | 系统打开草稿 |
+| Purchase.draft.rename | 重命名草稿 |
+| Purchase.draft.delete | 删除草稿 |
+| Purchase.submmit | 系统提交进货单给总经理审批 |
+| Purchase.check | 系统跳转进货单明细 |
+| Purchase.cancel | 系统放弃当前编辑信息 |
+
+### 3.2.13 制定进货退货单
+
+#### 3.2.13.1 特性描述
+
+当发生进货退货行为时，由销售人员制定相应进货退货单，填写具体的进货退货信息，并提交给总经理审批，在通过审批之后，该进货退货单生效。优先级 = 高
+
+#### 3.2.13.2 刺激/响应序列
+
+刺激：销售人员发起制定进货退货单请求  
+响应：系统跳转到进货退货单信息填写  
+刺激：销售人员选择  
+响应：系统在下拉菜单中显示所有可选项  
+刺激：销售人员信息全部填写完成，确认提交进货单  
+响应：系统保存订单，并提交给总经理  
+刺激：进货单信息不完整时，销售人员选择提交  
+响应：系统不予提交，并要求销售人员继续完善信息  
+刺激：销售人员查看进货退货单列表  
+响应：系统显示进货退货单列表及响应状态  
+刺激：销售人员查看进货退货单明细  
+响应：系统跳转到进货退货单明细  
+刺激：销售人员对不可退货的订单进行退货  
+响应：系统拒绝退货，并提示错误原因  
+刺激：销售人员选择删除草稿  
+响应：系统删除草稿
+
+#### 3.2.13.3 相关功能需求
+  
+| Return.Purchase.lookup | 系统按照默认顺序显示进货退货单列表  |
+| :-----------: | :----------------------:   |
+| Return.Purchase.create  |  系统新建进货退货单|
+| Return.Purchase.edit  | 系统跳转到信息填写 |
+| Return.Purchase.edit.input | 系统对输入的信息进行合法性检测 |
+| Return.Purchase.select | 系统给出可选项供选择 |
+| Return.Purchase.draft.save | 系统保存当前草稿 |
+| Return.Purchase.draft.open | 系统打开草稿继续编辑 |
+| Return.Purchase.draft.delete | 系统删除草稿 |
+| Return.Purchase.draft.rename | 系统重命名草稿 |
+| Return.Purchase.submit | 系统提交进货退货单给总经理审批 |
+| Return.Purchase.submit.confirm | 进行二次确认 |
+| Return.Purchase.check | 系统跳转进货退货单明细 |  
+| Return.Purchase.reject | 系统拒绝退货 |
+| Return.Purchase.error | 系统提示错误信息 |
+| Return.Purchase.cancel | 系统放弃当前编辑的信息 |
+
+### 3.2.14 制定销售单
+
+#### 3.2.14.1特性描述
+
+当发生销售行为时，由相应的销售人员制定销售单，记录此次销售的明细。销售单需要提交给总经理审批，在审批完成后，销售单即生效。优先级 = 高
+
+####3.2.14.2刺激/响应序列
+
+刺激：销售人员发出制定销售单请求  
+响应：系统跳转到进货单信息填写  
+刺激：销售人员选择  
+响应：系统在下拉菜单中显示所有可选项  
+刺激：销售人员选择促销策略  
+响应：显示当前所有促销策略  
+刺激：销售人员选择赠品  
+响应：系统添加赠品  
+刺激：销售人员信息全部填写完成，确认提交销售单  
+响应：系统保存订单，并提交给总经理  
+刺激：销售单信息不完整时，销售人员选择提交  
+响应：系统不予提交，并要求销售人员继续完善信息  
+刺激：销售人员查看销售单列表  
+响应：系统显示销售单列表及响应状态  
+刺激：销售人员查看销售单明细  
+响应：系统跳转到销售单明细  
+刺激：销售人员保存销售单草稿  
+响应：系统将当前操作的销售单保存为草稿  
+刺激：销售人员对草稿继续完善  
+响应：系统打开草稿  
+刺激：销售人员删除草稿  
+响应：系统删除草稿
+
+#### 3.2.14.3相关功能需求
+
+| Sale.lookup | 系统按照默认顺序显示销售单列表  |
+| :-----------: | :----------------------:   |
+| Sale.filter.input | 销售人员选择筛选组合 |
+| Sale.filter.show | 系统按照筛选条件显示 |
+| Sale.create  |  系统新建销售单|
+| Sale.edit  | 系统跳转到信息填写 |
+| Sale.edit.input | 系统对输入的信息进行合法性检查 |
+| Sale.select | 系统给出可选项供选择 |
+| Sale.give | 系统增加赠送 |
+| Sale.give.select | 选择赠送的商品 |
+| Sale.promotion | 系统为当前销售单使用促销策略 |
+| Sale.promotion.select | 选择促销策略组合 |
+| Sale.calc.price | 自动计算金额 |
+| Sale.discount.input | 销售人员输入折让金额 |
+| Sale.discount.check | 系统监测折让金额是否合法 |
+| Sale.voucher | 选择使用代金券 | 
+| Sale.draft.save | 系统保存当前草稿 |
+| Sale.draft.open | 系统打开草稿 |
+| Sale.draft.rename | 系统重命名草稿 |
+| Sale.draft.delete | 系统删除草稿 |
+| Sale.submit | 系统提交销售单给总经理审批 |
+| Sale.submit.confirm | 进行二次确认 |
+| Sale.check | 系统跳转进货单明细 |
+| Sale.cancel | 系统放弃当前编辑的销售单 |
+
+### 3.2.15 制定销售退货单
+
+#### 3.2.15.1 特性描述
+
+当发生销售退货退货行为时，由销售人员制定相应销售退货单，填写具体的销售退货信息，并提交给总经理审批，在通过审批之后，该销售退货单生效。 优先级 = 高
+
+#### 3.2.15.2 刺激/响应序列
+
+刺激：销售人员发起制定销售退货单请求  
+响应：系统跳转到销售退货单信息填写  
+刺激：销售人员选择  
+响应：系统在下拉菜单中显示所有可选项  
+刺激：销售人员信息全部填写完成，确认提交进货单  
+响应：系统保存订单，并提交给总经理  
+刺激：进货单信息不完整时，销售人员选择提交  
+响应：系统不予提交，并要求销售人员继续完善信息 
+刺激：销售人员保存草稿  
+响应：系统保存当前编辑的销售退货单   
+刺激：销售人员查看进货退货单列表  
+响应：系统显示进货退货单列表及响应状态  
+刺激：销售人员查看进货退货单明细  
+响应：系统跳转到进货退货单明细  
+刺激：不在退货时间内或不可以退货  
+响应：系统拒绝退货并提示错误原因
+
+#### 3.2.15.3 相关功能需求
+  
+| Return.Sale.lookup | 系统按照默认排序显示所有销售退货单 |
+|:------------------:|:-----------------------------:|
+| Return.Sale.filter.input | 销售人员输入筛选组合 |
+| Return.Sale.filter.show | 按照筛选条件显示销售退货单 |
+| Return.Sale.create | 系统创建新的销售退货单 |
+| Return.Sale.edit | 系统允许销售人员编辑销售退货单 |
+| Return.Sale.edit.input | 系统自动检测输入数据 |
+| Return.Sale.edit.select | 系统显示输入选择项 |
+| Return.Sale.draft.save | 系统把当前编辑的销售退货单保存为草稿 |
+| Return.Sale.draft.open | 系统打开草稿 |
+| Return.Sale.draft.delete | 系统删除草稿 |
+| Return.Sale.draft.rename | 重命名草稿 |
+| Return.Sale.submit | 系统提交销售退货单等待审批 |
+| Return.Sale.submit.confirm | 进行二次确认 |
+| Return.Sale.reject | 系统拒绝退货 |
+| Return.Sale.error | 系统提示错误信息 |
+| Return.Sale.cancel | 系统放弃当前销售退货单 |
+
+### 3.2.16 账户管理
+
+#### 3.2.16.1 特性描述
+
+当需要对账户信息进行增（增加账户）删（删除账户）改（修改账户信息）查（查询账户明细）时，一个已经登录到系统的财务人员开始进行相应的信息维护操作（增删改查），然后财务人员确认修改之后，账户信息会被更新。优先级 = 高
+
+####3.2.16.2刺激/响应序列
+
+刺激：财务人员发出新增账户请求  
+响应：系统跳转到账户信息填写  
+刺激：财务人员发出删除账户请求  
+响应：系统显示账户列表  
+刺激：财务人员选择一个账户  
+响应：系统显示该账户的信息  
+刺激：财务人员确认删除该账户  
+响应：系统将该账户标记为已删除  
+刺激：财务人员发出查询账户信息请求  
+响应：系统显示账户列表  
+刺激：财务人员发出筛选账户信息请求  
+响应：系统要求财务人员输入筛选条件  
+刺激：财务人员输入筛选条件并查询  
+响应：系统显示满足条件的账户  
+刺激：财务人员发出修改账户信息请求  
+响应：系统跳转到账户信息编辑  
+刺激：财务人员进行相应信息修改并确认修改  
+响应：系统保存并更新该账户的信息  
+刺激：财务人员保存草稿  
+响应：系统生成一个草稿    
+刺激：财务人员删除草稿  
+响应：系统删除草稿  
+刺激：财务人员完善草稿  
+响应：系统调出草稿  
+
+#### 3.2.8.3相关功能需求
+
+| Modify.Account.lookup | 系统按照默认顺序显示账户列表  |
+| :-----------: | :----------------------:   |
+| Modify.Account.sort.input | 财务人员选择排序规则 |
+| Modify.Account.sort.show | 系统按照自定义规则进行排序显示 |
+| Modify.Account.filter.input | 财务人员选择筛选组合 |
+| Modify.Account.filter.show | 系统按照筛选条件进行显示 |
+| Modify.Account.create | 系统跳转到账户信息填写 |
+| Modify.Account.select | 系统将选中该账户并高亮显示    |
+| Modify.Account.select.cancel | 取消选择 |
+| Modify.Account.select.all | 全选 |
+| Modify.Account.select.reverse | 反选 |
+| Modify.Account.new    | 系统跳转到账户信息填写       |
+| Modify.Account.submit| 系统提交并等待审核    |
+| Modify.Account.submit.confimr | 进行二次确认 |
+| Modify.Account.delete | 系统删除该账户              |
+| Modify.Account.delete.confirm | 系统再次请求删除确认 |
+| Modify.Account.edit   | 系统跳转到账户信息编辑       |
+| Modify.Account.edit.input | 系统自动对输入信息进行合法性检测 |
+| Modify.Account.draft.save   | 系统保存当前草稿 |
+| Modify.Account.draft.open | 系统打开草稿 |
+| Modify.Account.draft.rename | 系统重命名草稿 |
+| Modify.Account.draft.delete | 删除草稿 |
+| Modify.Account.check  | 系统打开账户信息详细界面     |
+| Modify.Account.cancel | 系统放弃当前编辑的信息 |
