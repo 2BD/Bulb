@@ -26,7 +26,9 @@
 #### &emsp;&emsp;&emsp;1.21 &emsp;用例 19 查看经营历程表
 #### &emsp;&emsp;&emsp;1.22 &emsp;用例 20 查看经营情况表
 #### &emsp;&emsp;&emsp;1.23 &emsp;用例 21 期初建账
+
 <br>
+
 ### 2 &emsp;测试用例覆盖情况
 #### &emsp;&emsp;&emsp;1.1 &emsp;用例 1 商品分类管理
 #### &emsp;&emsp;&emsp;1.2 &emsp;用例 2 商品管理
@@ -53,6 +55,7 @@
 #### &emsp;&emsp;&emsp;1.23 &emsp;用例 21 期初建账
 
 <br><br><br>
+
 ##1&emsp;测试用例套件
 
 ###&emsp;1.1 用例 1 商品分类管理
