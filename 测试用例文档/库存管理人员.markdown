@@ -1,0 +1,601 @@
+# 供销存系统测试用例
+<br><br><br>
+## 目录
+
+### 1 &emsp;测试用例套件
+#### &emsp;&emsp;&emsp;1.1 &emsp;用例 1 商品分类管理
+#### &emsp;&emsp;&emsp;1.2 &emsp;用例 2 商品管理
+#### &emsp;&emsp;&emsp;1.3 &emsp;用例 3 开库存赠送单
+#### &emsp;&emsp;&emsp;1.4 &emsp;用例 4 库存盘点
+#### &emsp;&emsp;&emsp;1.5 &emsp;用例 5 库存核对
+#### &emsp;&emsp;&emsp;1.6 &emsp;用例 6 库存查看
+#### &emsp;&emsp;&emsp;1.7 &emsp;用例 7 开库存报警单
+#### &emsp;&emsp;&emsp;1.8 &emsp;用例 8 单据审批
+#### &emsp;&emsp;&emsp;1.9 &emsp;用例 9 制定促销策略
+#### &emsp;&emsp;&emsp;1.10 &emsp;用例 10 查看系统操作日志
+#### &emsp;&emsp;&emsp;1.11 &emsp;用例 11 客户管理
+#### &emsp;&emsp;&emsp;1.12 &emsp;用例 12 制定进货单
+#### &emsp;&emsp;&emsp;1.13 &emsp;用例 13 定进货退货单
+#### &emsp;&emsp;&emsp;1.14 &emsp;用例 14 制定销售单
+#### &emsp;&emsp;&emsp;1.15 &emsp;用例 15 制定销售退货单
+#### &emsp;&emsp;&emsp;1.16 &emsp;用例 16 账户管理
+#### &emsp;&emsp;&emsp;1.17 &emsp;用例 17.1 制定收款单
+#### &emsp;&emsp;&emsp;1.18 &emsp;用例 17.2 制定付款单
+#### &emsp;&emsp;&emsp;1.19 &emsp;用例 17.3 制定现金费用单
+#### &emsp;&emsp;&emsp;1.20 &emsp;用例 18 查看销售明细表
+#### &emsp;&emsp;&emsp;1.21 &emsp;用例 19 查看经营历程表
+#### &emsp;&emsp;&emsp;1.22 &emsp;用例 20 查看经营情况表
+#### &emsp;&emsp;&emsp;1.23 &emsp;用例 21 期初建账
+
+<br>
+
+### 2 &emsp;测试用例覆盖情况
+#### &emsp;&emsp;&emsp;1.1 &emsp;用例 1 商品分类管理
+#### &emsp;&emsp;&emsp;1.2 &emsp;用例 2 商品管理
+#### &emsp;&emsp;&emsp;1.3 &emsp;用例 3 开库存赠送单
+#### &emsp;&emsp;&emsp;1.4 &emsp;用例 4 库存盘点
+#### &emsp;&emsp;&emsp;1.5 &emsp;用例 5 库存核对
+#### &emsp;&emsp;&emsp;1.6 &emsp;用例 6 库存查看
+#### &emsp;&emsp;&emsp;1.7 &emsp;用例 7 开库存报警单
+#### &emsp;&emsp;&emsp;1.8 &emsp;用例 8 单据审批
+#### &emsp;&emsp;&emsp;1.9 &emsp;用例 9 制定促销策略
+#### &emsp;&emsp;&emsp;1.10 &emsp;用例 10 查看系统操作日志
+#### &emsp;&emsp;&emsp;1.11 &emsp;用例 11 客户管理
+#### &emsp;&emsp;&emsp;1.12 &emsp;用例 12 制定进货单
+#### &emsp;&emsp;&emsp;1.13 &emsp;用例 13 定进货退货单
+#### &emsp;&emsp;&emsp;1.14 &emsp;用例 14 制定销售单
+#### &emsp;&emsp;&emsp;1.15 &emsp;用例 15 制定销售退货单
+#### &emsp;&emsp;&emsp;1.16 &emsp;用例 16 账户管理
+#### &emsp;&emsp;&emsp;1.17 &emsp;用例 17.1 制定收款单
+#### &emsp;&emsp;&emsp;1.18 &emsp;用例 17.2 制定付款单
+#### &emsp;&emsp;&emsp;1.19 &emsp;用例 17.3 制定现金费用单
+#### &emsp;&emsp;&emsp;1.20 &emsp;用例 18 查看销售明细表
+#### &emsp;&emsp;&emsp;1.21 &emsp;用例 19 查看经营历程表
+#### &emsp;&emsp;&emsp;1.22 &emsp;用例 20 查看经营情况表
+#### &emsp;&emsp;&emsp;1.23 &emsp;用例 21 期初建账
+
+<br><br><br>
+
+
+## 1&emsp;**测试用例套件**
+
+# &emsp; **用例 1 商品分类管理**
+
+<table>
+<tr>
+    <th colspan="1"><font size="3"><center>测试用例套件</center></font></th>
+    <th colspan="8"><font size="3"><center>覆盖流程</center></font></th>
+</tr>
+<tr>
+    <td width="50"><font size ="3">TUS1<center></center></font></td>
+    <td width="55"><font size = "3">正常流程</font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3">一.2a</font></td>
+    <td width="55"><font size = "3">一.3a</font></td>
+    <td width="55"><font size = "3">一.4a</font></td>
+    <td width="55"><font size = "3">一.5a</font></td>
+    <td width="55"><font size = "3">一.6a</font></td>
+    <td width="55"><font size = "3"></font></td>
+</tr>
+
+<tr>
+    <td width="50"><font size ="3">TUS2<center></center></font></td>
+    <td width="55"><font size = "3">正常流程</font></td>
+    <td width="55"><font size = "3">一.4b,4c</font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3">一.6b</font></td>
+</tr>
+<tr>
+    <td width="50"><font size ="3">TUS3<center></center></font></td>
+    <td width="55"><font size = "3">正常流程</font></td>
+    <td width="55"><font size = "3">二.2a</font></td>
+    <td width="55"><font size = "3">二.3a</font></td>
+    <td width="55"><font size = "3">二.4a</font></td>
+    <td width="55"><font size = "3">二.5a</font></td>
+    <td width="55"><font size = "3">二.6a</font></td>
+    <td width="55"><font size = "3">二.7-8a</font></td>
+    <td width="55"><font size = "3"></font></td>
+</tr>
+<tr>
+    <td width="50"><font size ="3">TUS4<center></center></font></td>
+    <td width="55"><font size = "3">正常流程</font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3">二.4b.8b</font></td>
+</tr>
+<tr>
+    <td width="50"><font size ="3">TUS5<center></center></font></td>
+    <td width="55"><font size = "3">正常流程</font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3">三.2a</font></td>
+    <td width="55"><font size = "3">三.3a</font></td>
+    <td width="55"><font size = "3">三.4a</font></td>
+    <td width="55"><font size = "3">三.5a</font></td>
+    <td width="55"><font size = "3">三.6a</font></td>
+    <td width="55"><font size = "3"></font></td>
+</tr>
+<tr>
+    <td width="50"><font size ="3">TUS6<center></center></font></td>
+    <td width="55"><font size = "3">正常流程</font></td>
+    <td width="55"><font size = "3">三.3b</font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3">三.5b</font></td>
+</tr>
+
+</table>
+<br><br><br><br>
+##**TSU1**
+|  ID  |商品名称 |商品位置 | 确认信息 |审核信息|预计输出|
+|:----:|:----:|:----:|:----:|:-----:|:---:|
+| TUS 1-1|商品1(TBD灯泡)|位置1(节能灯泡下)|确认添加|审核成功|商品种类添加成功，生成商品编号|
+| TUS 1-2|商品2(培林灯泡)|位置2(新式灯泡下)|确认添加|审核成功|商品种类添加成功，生成商品编号|
+<br><br>
+##**TSU2**
+|  ID  |商品名称 |商品位置 | 确认信息 |审核信息|预计输出|
+|:----:|:----:|:----:|:----:|:-----:|:---:|
+| TUS 2-1|商品1(TBD灯泡)|节能灯泡下，但是节能灯泡下已经有商品|确认添加|审核成功|商品添加失败，非法添加位置|
+| TUS 2-2|商品2(培林灯泡)|节能灯泡下，但是节能灯泡下已经有商品|确认添加|审核失败|商品添加失败，非法添加位置，没有通过审核|
+| TUS 2-3|商品3(yy电灯)|节能灯泡下，但是节能灯泡下已经有商品|取消|审核成功|商品添加失败|
+| TUS 2-4|商品4(冬杨手电)，但是已经有过该商品|节能灯泡下|确认添加|审核成功|商品添加失败，非法商品名称|
+| TUS 2-5|商品5(LAW太阳能灯)|位置2(新式灯泡下)|确认添加|审核失败|没有通过审核|
+<br><br>
+
+##**TSU3**
+|  ID  |商品编号 |确认信息 | 再次确认 |审核信息|预计输出|
+|:----:|:----:|:----:|:----:|:-----:|:---:|
+| TUS 3-1|商品编号1(123-12345)|确认删除|再次确认删除|审核成功|商品删除成功|
+| TUS 3-2|商品编号2(111-11111)|确认删除|再次确认删除|审核成功|商品删除成功|
+
+<br><br>
+
+##**TSU4**
+|  ID  |商品编号 |确认信息 | 再次确认 |审核信息|预计输出|
+|:----:|:----:|:----:|:----:|:-----:|:---:|
+| TUS 4-1|不存在的商品编号1(123-12345)|---|---|---|查找不到该商品|
+| TUS 4-2|商品编号2(111-12111)|取消|---|---|商品删除操作取消|
+| TUS 4-3|商品编号3(111-11311)|确认删除|取消|---|商品删除操作取消|
+| TUS 4-4|商品编号4(111-11141)|确认删除|确认|驳回|商品删除删除操作失败|
+
+<br><br>
+
+##**TSU5**
+|  ID  |商品编号 |新的商品信息 | 确认 |审核信息|预计输出|
+|:----:|:----:|:----:|:----:|:-----:|:---:|
+| TUS 5-1|商品编号1(123-12345)|商品修改信息1（培林灯泡改名为LAW灯泡）|确认|审核成功|商品信息修改成功|
+| TUS 5-2|商品编号2(111-11111)|商品信息修改2（yy电灯改名为冬杨电灯）|确认|审核成功|商品信息修改操作成功|
+<br><br>
+##**TSU6**
+|  ID  |商品编号 |新的商品信息 | 确认 |审核信息|预计输出|
+|:----:|:----:|:----:|:----:|:-----:|:---:|
+| TUS 6-1|不存在的商品编号1(123-12345)|---|--|---|商品种类信息修改失败|
+| TUS 6-2|商品编号2(111-11111)|商品信息修改2（yy电灯改名为冬杨电灯），但是冬杨电灯已经存在|---|---|提醒重新输入商品信息|
+| TUS 6-3|商品编号2(111-11111)|商品信息修改2（yy电灯改名为冬杨电灯）|取消|---|商品信息修改失败|
+| TUS 6-4|商品编号2(111-11111)|商品信息修改2（yy电灯改名为冬杨电灯）|确认|驳回|商品信息修改失败|
+<br><br>
+
+
+
+
+
+# &emsp; **用例 2 商品管理**
+<table>
+<tr>
+    <th colspan="1><font size="3"><center>测试用例套件</center></font></th>
+    <th colspan="8“><font size="3"><center>覆盖流程</center></font></th>
+</tr>
+<tr>
+    <td width="50"><font size ="3">TUS1<center></center></font></td>
+    <td width="55"><font size = "3">正常流程</font></td>
+    <td width="55"><font size = "3">一.2a</font></td>
+    <td width="55"><font size = "3">一.3a</font></td>
+    <td width="55"><font size = "3">一.4a</font></td>
+    <td width="55"><font size = "3">一.5a</font></td>
+    <td width="55"><font size = "3">一.6a</font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3"></font></td>
+</tr>
+<tr>
+    <td width="50"><font size ="3">TUS2<center></center></font></td>
+    <td width="55"><font size = "3">正常流程</font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3">一.4b</font></td>
+    <td width="55"><font size = "3">一.7b</font></td>
+</tr>
+<tr>
+    <td width="50"><font size ="3">TUS3<center></center></font></td>
+    <td width="55"><font size = "3">正常流程</font></td>
+    <td width="55"><font size = "3">二.2a</font></td>
+    <td width="55"><font size = "3">二.3a</font></td>
+    <td width="55"><font size = "3">二.4a</font></td>
+    <td width="55"><font size = "3">二.5a</font></td>
+    <td width="55"><font size = "3">二.6-7a</font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3"></font></td>
+</tr>
+<tr>
+    <td width="50"><font size ="3">TUS4<center></center></font></td>
+    <td width="55"><font size = "3">正常流程</font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3">二.4b</font></td>
+    <td width="55"><font size = "3">二.7b</font></td>
+</tr>
+<tr>
+    <td width="50"><font size ="3">TUS5<center></center></font></td>
+    <td width="55"><font size = "3">正常流程</font></td>
+    <td width="55"><font size = "3">三.2a</font></td>
+    <td width="55"><font size = "3">三.3a</font></td>
+    <td width="55"><font size = "3">三.4a</font></td>
+    <td width="55"><font size = "3">三.5a</font></td>
+    <td width="55"><font size = "3">三.6a</font></td>
+    <td width="55"><font size = "3">三.7-9a</font></td>
+    <td width="55"><font size = "3"></font></td>
+</tr>
+<tr>
+    <td width="50"><font size ="3">TUS6<center></center></font></td>
+    <td width="55"><font size = "3">正常流程</font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3">三.4b</font></td>
+</tr>
+
+<tr>
+    <td width="50"><font size ="3">TUS7<center></center></font></td>
+    <td width="55"><font size = "3">正常流程</font></td>
+    <td width="55"><font size = "3">四.2a</font></td>
+    <td width="55"><font size = "3">四.3a</font></td>
+    <td width="55"><font size = "3">四.4a</font></td>
+    <td width="55"><font size = "3">四.5a</font></td>
+    <td width="55"><font size = "3">四.4b</font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3"></font></td>
+</tr>
+
+</table>
+<br><br><br>
+##**TSU1**
+|  ID  | 商品分类 |商品相关信息 | 确认 |审核|预计输出|
+|:----:|:----:|:----:|:----:|:-----:|:-----:|
+| TUS 1-1|分类一（节能灯泡）|商品1（培林灯泡，售价25）|确认进行添加|审核通过|商品添加成功，生成商品编号|
+| TUS 1-2|分类一（强灯光灯泡）|商品2(冬杨电灯，售价30)|确认添加|审核通过|商品添加成功，生成商品编号|
+<br><br><br>
+##**TSU2**
+|  ID  | 商品分类 |商品相关信息 | 确认 |审核|预计输出|
+|:----:|:----:|:----:|:----:|:-----:|:-----:|
+| TUS 2-1|分类一（节能灯泡）商品分类不正确|---|---|---|商品分类信息不正确，提醒重新添加商品分类信息|
+| TUS 2-2|分类一（强灯光灯泡）|商品2(冬杨电灯，售价30)，该商品名称已经存在|---|---|添加失败，提醒重新输入商品信息|
+| TUS 2-3|分类一（强灯光灯泡）|商品2(law手电，售价40)|取消|---|添加失败|
+| TUS 2-4|分类一（强灯光灯泡）|商品2(law手电，售价40)|取消|审核失败|商品添加失败|
+
+<br><br><br>
+##**TSU3**
+|  ID  | 商品编号 |确认信息 | 再次确认信息 |审核信息|预计输出|
+|:----:|:----:|:----:|:----:|:-----:|:-----:|
+| TUS 3-1|商品编号1（111-11111）|确认删除|再次确认|审核通过|商品删除成功|
+| TUS 3-2|商品编号2（123-12111）|确认删除|再次确认|审核通过|商品删除成功|
+<br><br><br>
+##**TSU4**
+|  ID  |商品编号 |确认信息 | 再次确认 |审核信息|预计输出|
+|:----:|:----:|:----:|:----:|:-----:|:---:|
+| TUS 4-1|不存在的商品编号1(123-12345)|---|---|---|查找不到该商品|
+| TUS 4-2|商品编号2(111-12111)|取消|---|---|商品删除操作取消|
+| TUS 4-3|商品编号3(111-11311)|确认删除|取消|---|商品删除操作取消|
+| TUS 4-4|商品编号4(111-11141)|确认删除|确认|驳回|商品删除删除操作失败|
+<br><br>
+##**TSU5**
+|  ID  |商品编号 |要修改的商品信息 | 确认信息 |审核信息|预计输出|
+|:----:|:----:|:----:|:----:|:-----:|:---:|
+| TUS 5-1|商品编号1(123-12345)|商品1（由冬杨灯泡改成冬杨电灯）|确认|审核通过|商品信息修改成功|
+| TUS 5-2|商品编号2(111-12111)|商品2（冬杨灯泡由30调到50）|确认|审核通过|商品信息修改成功|
+<br><br>
+##**TSU6**
+|  ID  |商品编号 |要修改的商品信息 | 确认信息 |审核信息|预计输出|
+|:----:|:----:|:----:|:----:|:-----:|:---:|
+| TUS 6-1|不存在的商品编号1(123-12345)|---|---|---|查找不到该商品|
+| TUS 6-2|商品编号2(111-12111)|商品1（由冬杨灯泡改成冬杨电灯）单冬杨电灯已经存在|---|---|提示修改的信息不正确，修改信息操作失败|
+| TUS 6-3|商品编号3(111-11311)|商品2（冬杨灯泡的价格由30调到50）|取消|---|商品修改操作失败|
+| TUS 6-4|商品编号4(111-11141)|商品2（冬杨灯泡的价格由30调到50）|确认|驳回|商品修改操作失败|
+<br><br>
+##**TSU7**
+|  ID  |商品编号 |确认信息|审核信息|预计输出|
+|:----:|:----:|:----:|:----:|:-----:|:---:|
+| TUS 7-1|商品编号1(123-12345)|确认|审核通过|查询商品信息成功，显示商品为冬杨灯泡|
+| TUS 7-2|商品编号2(111-12111)|确认|审核通过|商品信息查询成功，显示商品信息为培林灯泡|
+| TUS 7-3|商品编号3(111-11311)，但该商品编号不存在|---|---|商品信息查询操作失败|
+| TUS 7-4|商品编号4(111-11141)|取消|---|商品信息查询操作失败|
+| TUS 7-4|商品编号4(111-11115)|确认|审核失败|商品信息查询操作失败|
+<br><br>
+# &emsp; **用例 3 核查库存赠送单**
+<table>
+<tr>
+    <th colspan="1><font size="3"><center>测试用例套件</center></font></th>
+    <th colspan="8“><font size="3"><center>覆盖流程</center></font></th>
+</tr>
+<tr>
+    <td width="50"><font size ="3">TUS1<center></center></font></td>
+    <td width="55"><font size = "3">正常流程</font></td>
+    <td width="55"><font size = "3">2a</font></td>
+    <td width="55"><font size = "3">3a</font></td>
+    <td width="55"><font size = "3">4a</font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3"></font></td>
+</tr>
+<tr>
+    <td width="50"><font size ="3">TUS2<center></center></font></td>
+    <td width="55"><font size = "3">正常流程</font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3">2b</font></td>
+    <td width="55"><font size = "3">4b</font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3"></font></td>
+</tr>
+</table>
+<br><br><br>
+##**TSU1**
+|  ID  | 库存赠送注释信息 |确认信息 | 审核信息 |期望输出|
+|:----:|:----:|:----:|:----:|:-----:|
+| TUS 1-1|注释1（库存赠送情况无误）|确认|审核通过|商品赠送成功|
+| TUS 1-2||注释2（核查无误）|确认|审核通过|商品赠送成功|
+<br><br><br>
+##**TSU2**
+|  ID  | 库存赠送注释信息 |确认信息 | 审核信息 |期望输出|
+|:----:|:----:|:----:|:----:|:-----:|
+| TUS 2-1|注释1（赠品数量不足）|---|---|商品赠送失败|
+| TUS 2-2||注释2（核查无误）|取消|---|商品赠送失败|
+| TUS 2-3||注释2（核查无误）|确认|核查失败|商品赠送失败|
+<br><br><br>
+
+# &emsp; **用例 4 库存盘点**
+<table>
+<tr>
+    <th colspan="1><font size="3"><center>测试用例套件</center></font></th>
+    <th colspan="8“><font size="3"><center>覆盖流程</center></font></th>
+</tr>
+<tr>
+    <td width="50"><font size ="3">TUS1<center></center></font></td>
+    <td width="55"><font size = "3">正常流程</font></td>
+    <td width="55"><font size = "3">2a</font></td>
+    <td width="55"><font size = "3">3a</font></td>
+    <td width="55"><font size = "3">4a</font></td>
+    <td width="55"><font size = "3">3b</font></td>
+    <td width="55"><font size = "3">3c</font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3"></font></td>
+</tr>
+</table>
+<br><br><br>
+
+|  ID  | 点击进行库存盘点 |选择时间段|是否导出excel表格|确认信息|期望输出|
+|:----:|:----:|:----:|:----:|:-----:|:-----:|
+| TUS 1-1|点击进行|选择上午8点到下午8点|导出表格|确认|库存盘点成功，导出excel表格|
+| TUS 1-2|点击进行|上午八点到第二天下午（非法操作）|---|---|库存盘点失败|
+| TUS 1-3|点击进行|选择上午8点到下午8点|不导出表格|确认|库存盘点成功生成相应的信息|
+| TUS 1-3|点击进行|选择上午8点到下午8点|不导出表格|取消|库存盘点失败|
+
+<br><br><br>
+
+# &emsp; **用例 5 库存核对**
+<table>
+<tr>
+    <th colspan="1><font size="3"><center>测试用例套件</center></font></th>
+    <th colspan="8“><font size="3"><center>覆盖流程</center></font></th>
+</tr>
+<tr>
+    <td width="50"><font size ="3">TUS1<center></center></font></td>
+    <td width="55"><font size = "3">正常流程</font></td>
+    <td width="55"><font size = "3">2a</font></td>
+    <td width="55"><font size = "3">3a</font></td>
+    <td width="55"><font size = "3">4a</font></td>
+    <td width="55"><font size = "3">5a</font></td>
+    <td width="55"><font size = "3">6a</font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3"></font></td>
+</tr>
+<tr>
+    <td width="50"><font size ="3">TUS2<center></center></font></td>
+    <td width="55"><font size = "3">正常流程</font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3">3b</font></td>
+    <td width="55"><font size = "3">6b</font></td>
+</tr>
+</table>
+<br><br><br>
+##**TSU1**
+|  ID  | 商品编号 |商品实际数量| 数量比对结果|确认|审核结果|期望输出|
+|:----:|:----:|:----:|:----:|:-----:|:-----:|:-----:|
+| TUS 1-1|商品1（111-11111）|30|无误|确认|---|无输出结果|
+| TUS 1-2|商品2（111-11112）|40|系统中库存数量偏少|确认|审核成功|库存报损单开设成功，自动更新库存|
+| TUS 1-3|商品3（111-11113）|35|系统中库存数量偏少|确认|审核失败|库存报损单开设失败，库存没有进行及时更新|
+| TUS 1-4|商品4（111-11114）|45|系统中库存数量偏少|取消|---|库存报损单开设失败，库存没有进行及时更新|
+| TUS 1-5|商品4（111-11115），商品编号不存在|---|---|---|---|相关操作失败|
+<br><br><br>
+##**TSU2**
+|  ID  | 商品编号 |商品实际数量| 数量比对结果|确认|审核结果|期望输出|
+|:----:|:----:|:----:|:----:|:-----:|:-----:|:-----:|
+| TUS 2-1|商品2（111-11112）|40|系统中库存数量偏多|确认|审核成功|库存报溢单开设成功，自动更新库存|
+| TUS 2-2|商品3（111-11113）|35|系统中库存数量偏多|确认|审核失败|库存报溢单开设失败，库存没有进行及时更新|
+| TUS 2-3|商品4（111-11114）|45|系统中库存数量偏多|取消|---|库存报溢单开设失败，库存没有进行及时更新|
+<br><br><br>
+
+# &emsp; **用例 6 库存查看**
+<table>
+<tr>
+    <th colspan="1><font size="3"><center>测试用例套件</center></font></th>
+    <th colspan="8“><font size="3"><center>覆盖流程</center></font></th>
+</tr>
+<tr>
+    <td width="50"><font size ="3">TUS1<center></center></font></td>
+    <td width="55"><font size = "3">正常流程</font></td>
+    <td width="55"><font size = "3">2a</font></td>
+    <td width="55"><font size = "3">3a</font></td>
+    <td width="55"><font size = "3">4a</font></td>
+    <td width="55"><font size = "3">5a</font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3"></font></td>
+</tr>
+<tr>
+    <td width="50"><font size ="3">TUS2<center></center></font></td>
+    <td width="55"><font size = "3">正常流程</font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3">2b</font></td>
+    <td width="55"><font size = "3">3b</font></td>
+    <td width="55"><font size = "3"></font></td>
+</tr>
+</table>
+##**TSU1**
+|  ID  | 查看的时间段 |选择筛选条件|选择是否进行打印|确认信息|期望输出|
+|:----:|:----:|:----:|:----:|:-----:|:-----:|:-----:|
+| TUS 1-1|选择时间上午八点到下午八点|无筛选条件|是|确认|输出并且打印该时间段内的所有出库入库信息|
+| TUS 1-2|选择时间上午八点到下午八点|选择所有商品价格低于30元的商品|是|确认|输出并打印改时间段内所有满足条件的商品|
+| TUS 1-3|选择时间上午八点到下午八点|无|否|确认|输出所有该时间段内商品的出库入库信息|
+<br><br><br>
+
+##**TSU2**
+|  ID  | 查看的时间段 |选择筛选条件|选择是否进行打印|确认信息|期望输出|
+|:----:|:----:|:----:|:----:|:-----:|:-----:|:-----:|
+| TUS 1-1|选择时间上午八点到下午八点|无筛选条件|否|取消|库存查看操作失败|
+| TUS 1-2|选择时间上午八点到下午八点|选择所有价格高于2000的商品|是|确认|库存查看失败，没有找到先关商品|
+<br><br><br>
+
+# &emsp; **用例 7 库存报警**
+<table>
+<tr>
+    <th colspan="1><font size="3"><center>测试用例套件</center></font></th>
+    <th colspan="8“><font size="3"><center>覆盖流程</center></font></th>
+</tr>
+<tr>
+    <td width="50"><font size ="3">TUS1<center></center></font></td>
+    <td width="55"><font size = "3">正常流程</font></td>
+    <td width="55"><font size = "3">2a</font></td>
+    <td width="55"><font size = "3">3a</font></td>
+    <td width="55"><font size = "3">4a</font></td>
+    <td width="55"><font size = "3">2b</font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3"></font></td>
+    <td width="55"><font size = "3"></font></td>
+</tr>
+</table>
+<br><br><br>
+##**TSU1**
+|  ID  | 注释和建议进货数量 |确认信息 |审核信息 |期望输出|
+|:----:|:----:|:----:|:----:|:-----:|
+| TUS 1-1|审核无误，建议增加111-11111商品10件|确认|审核通过|商品报警单开设成功，成功传达报警信息|
+| TUS 1-2||审核无误，建议增加111-11112商品20件|取消|---|报警单开设失败|
+| TUS 1-3|审核无误，建议增加111-11113商品40件|确定|审核失败|商品报警单开始失败|
+<br><br><br>
+
+
+## 2&emsp; 测试用例覆盖情况
+
+
+### &emsp;**2.1 用例 1 商品分类管理**
+
+| **编号** | **测试用例套件1** |**测试用例套件2**|**测试用例套件3**|**测试用例套件4**|**测试用例套件5**|**测试用例套件6**|
+|---|---|---|---|---|---|---|
+|Category.Input|||||
+|Categoty.Input.Add|||||
+|Categoty.Input.Delete|||||
+|Category.Input.Revise|||||
+|Category.Input.Invalid|||||
+|Category.Input.Cancel|||||
+|Category.Add.Name|||||
+|Category.Add.Pos|||||
+|Category.Add.Invalid|||||
+|Categoty.Add.Generate|||||
+|Category.Add.Number|||||
+|Category.Delete.Number|||||
+|Category.Delete.Invalid|||||
+|Category.Delete.Goods|||||
+|Category.Revise.Number|||||
+|Category.Revise.Invalid|||||
+|Categoty.Revise.Info|||||
+
+### &emsp;**2.1 用例 2 商品管理**
+
+| **编号** | 测试用例套件1 |测试用例套件2|测试用例套件3|测试用例套件4|测试用例套件5|测试用例套件6|测试用例套件7|
+|---|---|---|---|---|---|---|---|
+|Goods.Input||
+|Goods.Input.Add||
+|Goods.Input.Delete||
+|Goods.Input.Revise||
+|Goods.Input.Query||
+|Goods.Input.Invalid||
+|Goods.Input.Cancel||
+|Goods.Add.Name||
+|Goods.Add.Pos|
+|Goods.Add.Invalid||
+|Goods.Add.Generate||
+|Goods.Add.Number||
+|Goods.Delete.Number||
+|Goods.Delete.Inbalid||
+|Goods.Delete.Goods||
+|Goods.Revise.Number||
+|Goods.Revise.Invalid||
+|Goods.Revise.Info||
+|Goods.Query.Start|||
+|Goods.Revise.Return||
+
+### &emsp;**2.1 用例 3 核实库存赠送单**
+
+| **编号** |**测试用例套件1**|**测试用例套件2**|
+|---|---|---|
+|Gift.Input||
+|Gift.Input.Comment||
+|Goods.Gitf||
+### &emsp;**2.1 用例 4 库存盘点**
+
+| **编号** | **测试用例套件1** |
+|---|---|
+|Sum.Input||
+|Sum.Input.Category||
+|Sum.Category||
+
+### &emsp;**2.1 用例 5 库存核对**
+
+| **编号** | **测试用例套件1** | **测试用例套件2** |
+|---|---|---|
+|Check.Input||
+|Check.Input.Number||
+|Check.judge||
+|Check.Exceed||
+|Check.Lose||
+
+
+
+
+
